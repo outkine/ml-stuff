@@ -177,7 +177,7 @@ optimizer = torch.optim.Adam(net.parameters(), lr=learning_rate)
 
 # In[ ]:
 
-# run_train(doc, doc_len, net, criterion, optimizer, n_epochs, chunk_len,
+run_train(doc, doc_len, net, criterion, optimizer, n_epochs, chunk_len,
 #          batch_size, teacher_ratio)
 # torch.save(net.state_dict(), 'state.pt')
 
